@@ -19,5 +19,6 @@ def main():
     plt.imshow(test_images[index].reshape(28,28), cmap='gray')
     plt.axis('off')
     plt.show()
+    
 if __name__ == "__main__":
     main()
